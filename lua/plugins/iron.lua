@@ -25,9 +25,9 @@ return {
         -- ✅ 你选择的 repl 打开方式
         repl_open_cmd = view.offset({
           width = 60,
-          height = math.floor(vim.o.lines * 0.75),
+          height = math.floor(vim.o.lines * 0.4),
           w_offset = view.helpers.flip(2),
-          h_offset = view.helpers.proportion(0.5),
+          h_offset = view.helpers.proportion(0.9),
         }),
       },
       keymaps = {
