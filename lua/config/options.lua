@@ -3,3 +3,10 @@
 -- Add any additional options here
 local opt = vim.opt
 opt.relativenumber = false
+
+vim.opt.guicursor = {
+  "n-v-c:block",
+  "i-ci:ver40",
+  "r-cr:hor20",
+  "a:blinkon0",
+}
